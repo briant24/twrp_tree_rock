@@ -43,10 +43,22 @@ AB_OTA_UPDATER := true
 # A/B
 AB_OTA_PARTITIONS += \
     boot \
+    dpm \
     dtbo \
+    gz \
+    lk \
+    logo \
+    mcupm \
+    md1img \
+    pi_img \
+    preloader_raw \
     product \
+    scp \
+    spmfw \
+    sspm \
     system \
     system_ext \
+    tee \
     vbmeta \
     vbmeta_system \
     vbmeta_vendor \
