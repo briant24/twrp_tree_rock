@@ -59,7 +59,6 @@
 /system_ext_image   emmc   /dev/block/mapper/system_ext                    flags=backup=1;display="System_ext Image";slotselect;flashimg=1
 /vendor_image       emmc   /dev/block/mapper/vendor                        flags=backup=1;display="Vendor Image";slotselect;flashimg=1
 /product_image      emmc   /dev/block/mapper/product                       flags=backup=1;display="Product Image";slotselect;flashimg=1
-/mi_ext_image       emmc   /dev/block/mapper/mi_ext                        flags=backup=1;display="Mi_ext Image";slotselect;flashimg=1
 
 # Removable Storage
 /external_sd        auto   /dev/block/mmcblk1p1 /dev/block/mmcblk0p1       flags=display="External_SDcard";storage;wipeingui;removable
